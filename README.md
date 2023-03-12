@@ -1,2 +1,2 @@
 # flipkart home page 
- Initial project to create flipkart home page using css and html 
+ Initial project to clone the flipkart home page using html and css 
