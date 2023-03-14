@@ -10,14 +10,18 @@ header{
     color: white;
     background-color:#004daa;
     font-family: 'Abhaya Libre', serif;
+    
 }
 nav{
+    height: 15vh;
     display: flex;
+    align-items: center;
+    justify-content: flex-start;
     
 }
 .logo{
-    display:flex;
-    align-items: center;
+    /* display:flex;
+    align-items: center; */
 }
 .logo img{
     width: 88px;
@@ -26,11 +30,11 @@ nav{
     padding : 0 23px;
 }
 nav ul{
-    height: 9vh;
+    
     display: flex;
     justify-content: flex-start;
-    align-items: center;
-}
+    align-items: center; 
+} 
 nav ul li {
     list-style: none;
     padding: 0 23px;
@@ -39,9 +43,59 @@ nav ul li a{
     text-decoration: none;
     color: white;
 }
-.container{
-    min-height: calc(100vh - 9vh - 12vh);
+nav ul li a:hover{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
 }
+.search{
+    display: flex;
+    align-items: center;
+    margin : 0 150px;
+}
+.search input{
+    padding : 0 10px;
+    width: 500px;
+    height: 25px;
+    border-radius: 10px;
+}
+.search img{
+    height: 30px;   
+    margin : 0 -30px;
+    cursor: pointer;
+    border-end-end-radius : 10px;
+    border-top-right-radius: 10px;
+
+}
+.container{
+    min-height: calc(100vh - 15vh - 12vh);
+}
+.slider{
+    margin : 12px 12px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.card{
+    display: flex;
+    align-items: center;
+    max-width: 190px;
+    margin : 0 5vw 10vw 5vw;
+    padding: 0 10px;
+}
+
+.card h2{
+    font-family: 'Abhaya Libre', serif;
+}
+
+.card-items{
+    display: flex;
+    margin : 0 5vw 0 5vw;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
 footer{
     height: 12vh;
     color: white;
