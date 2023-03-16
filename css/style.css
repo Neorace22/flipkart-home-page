@@ -69,6 +69,7 @@ nav ul li a:hover{
 }
 .container{
     min-height: calc(100vh - 15vh - 12vh);
+    
 }
 .slider{
     margin : 12px 12px ;
@@ -86,6 +87,7 @@ nav ul li a:hover{
 
 .card h2{
     font-family: 'Abhaya Libre', serif;
+    
 }
 
 .card-items{
@@ -94,6 +96,7 @@ nav ul li a:hover{
     justify-content: center;
     flex-direction: column;
 }
+
 
 
 footer{
